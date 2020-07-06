@@ -19,7 +19,7 @@ namespace Aula30WhatsApp
            // leonardo.Cadastrar(leonardo);
 
             Mensagem m1 = new Mensagem();
-            m1.Texto = "Boa tarde!";
+            m1.Texto = "Boa noite!";
             m1.Destinatario = leonardo;
             
             Console.WriteLine(m1.Enviar( leonardo ));
