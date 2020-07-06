@@ -11,12 +11,13 @@ namespace Aula30WhatsApp
             gustavo.Telefone = "+55 (11) 9999-9999";
 
             //gustavo.Cadastrar(gustavo);
+            //gustavo.Excluir(gustavo);
            
             Contato leonardo = new Contato();
             leonardo.Nome = "Leonardo";
             leonardo.Telefone = "+55 (11) 9888-9888";
 
-           // leonardo.Cadastrar(leonardo);
+            //leonardo.Cadastrar(leonardo);
 
             Mensagem m1 = new Mensagem();
             m1.Texto = "Boa noite!";

@@ -21,7 +21,14 @@ namespace Aula30WhatsApp
 
         public void Excluir(Contato c)
         {
-            throw new NotImplementedException();
+            List<string> linhas = new List<string>();
+                using(StreamReader arquivo = new StreamReader(PATH)){
+            string linha;
+            while((linha = arquivo.ReadLine()) !=null){
+                linhas.Add(linha);
+                }
+            linhas.RemoveAll(z => z.Contains (c.Nome)); 
+            }
         }
 
         public void Listar()
